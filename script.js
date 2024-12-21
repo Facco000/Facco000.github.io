@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     snowContainer.classList.add('snowflakes');
     document.body.appendChild(snowContainer);
 
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < 15; i++) {
         setTimeout(() => {
             const snowflake = document.createElement('div');
             snowflake.classList.add('snowflake');
